@@ -1,0 +1,15 @@
+CREATE TABLE friends (num NUMBER PRIMARY KEY, name VARCHAR(10), phone VARCHAR(20), addr VARCHAR(10));
+
+INSERT INTO friends VALUES(1, 'ÀÌ½ÂÀç', '010-1111-2222', '±¸·Îµ¿');
+INSERT INTO friends VALUES(2, '±è°¡¿ø', '010-2222-3333', 'Àá½Çµ¿');
+INSERT INTO friends VALUES(3, '¹Ú¼¼ÀÍ', '010-3333-4444', '¿°Ã¢µ¿');
+
+COMMIT;
+
+UPDATE friends SET name='±èÄá' WHERE num=1;
+
+COMMIT;
+
+DELETE FROM friends WHERE num=2;
+
+COMMIT;

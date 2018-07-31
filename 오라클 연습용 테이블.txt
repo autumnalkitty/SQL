@@ -1,0 +1,11 @@
+테이블명: emp
+
+[칼럼]
+EMPNO: 사원번호
+ENAME: 사원이름
+JOB: 직책
+MGR: 매니저 사번(직속상관)
+HIREDATE: 입사일 
+SAL: 봉급
+COMM: 성과급
+DEPTNO: 부서번호
